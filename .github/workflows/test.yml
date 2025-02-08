@@ -41,5 +41,5 @@ jobs:
       - name: test
         run: npm -g install htmlhint
       - name: htmlhint
-        run: htmlhint "root.html"
+        run: htmlhint "**/*.html"
 
